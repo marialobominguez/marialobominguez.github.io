@@ -9,5 +9,10 @@ body{
     background-color: #f6b4b1;
 }
 h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d67976;
+    border: 5px dotted #A52A2A;
+    color: whitesmoke;
+}
+h2{
+    border: 1px solid #111;
 }
