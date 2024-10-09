@@ -2,3 +2,12 @@ a{
     color: inherit;
     text-decoration: none;
 }
+p.volver{
+    text-align: right;
+}
+body{
+    background-color: #f6b4b1;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
