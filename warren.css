@@ -8,15 +8,43 @@ p.volver{
 }
 body{
     background-color: #f6c9c7;
+    width: 85%;
+    margin: auto;
 }
 h1{
     background-color: #ce8a88;
     border: 5px dotted #A52A2A;
     color: rgb(255, 253, 253);
+    -webkit-text-stroke-color: #111;
+    -webkit-text-stroke-width: 0.5px;
 }
 h2{
-    border: 1px solid #111;
+    border-bottom: 3px solid rgb(102, 26, 26);
+    color: rgb(102, 26, 26);
+    background-color:rgb(255, 206, 177) ;
+}
+h3{
+    color: rgb(128, 20, 54);
+    -webkit-text-stroke-color: #3f0924;
+    -webkit-text-stroke-width: 0.5px;
+    border-bottom: 1px solid #3f0924;
 }
 p.centrado{
     text-align: center;
+}
+#rojo{
+    color: red;
+}
+li{
+    list-style-type:circle;
+}
+h2:target{
+    /*text-decoration: underline solid 3px rgb(102, 26, 26);*/
+    border: 3px solid rgb(102, 26, 26);
+}
+h3:target{
+    text-decoration: underline solid 3px rgb(70, 36, 47);
+}
+img{
+    width: 500px;
 }
