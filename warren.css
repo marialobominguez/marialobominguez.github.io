@@ -37,6 +37,7 @@ p.centrado{
 }
 li{
     list-style-type:circle;
+    padding: 5px;
 }
 h2:target{
     /*text-decoration: underline solid 3px rgb(102, 26, 26);*/
