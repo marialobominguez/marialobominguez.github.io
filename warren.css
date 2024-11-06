@@ -6,6 +6,61 @@ a{
 a#interes{
     font-size: medium;
 }
+/*LISTA DE NAVEGACIÓN*/
+nav ol{
+    list-style: none;
+    padding: 0;
+}
+nav li{
+    line-height: 3rem;
+    position: relative;
+}
+nav li ol{ /*los de segundo y tercer nivel*/
+    position: absolute; /*esto es para que se salga de la maquetación, al tener esto podemos mover el contenedor respecto a su padre*/
+}
+nav a{
+    color: rgb(2, 2, 2);
+    display: block;
+    text-decoration: none;
+    padding: 0 2.5em;
+    transition: .4s;
+}
+nav a:hover{
+    background-color: rgb(243, 158, 109);
+}
+
+/*PRIMER NIVEL*/
+nav>ol>li{ /*para elegir a las li que están en el primer nivel*/
+    float: left;
+}
+nav>ol{
+    background-color: rgb(247, 172, 128);
+    display: table;
+    width: 100%;
+}
+
+/*SEGUNDO NIVEL*/
+nav li li{
+    background-color: rgb(247, 167, 121);
+    max-height: 0;
+    transition: all 1s;
+    overflow: hidden; /*oculta todo lo que este fuera del contenedor, es igual que display none*/
+}
+nav li:hover >ol>li{
+    max-height: 1000px;
+    overflow: visible; /*para hacerlo visible una vez que se pasa el ratón por encima*/
+}
+
+/*TERCER NIVEL*/
+nav ol ol ol{
+    right: 100%;
+    top: 0;
+}
+
+/*FIN LISTA DE NAVEGACIÓN*/
+p{
+    font-size: 25px;
+}
 p.volver{
     text-align: right;
 }
@@ -20,27 +75,26 @@ h1{
     color: rgb(255, 253, 253);
     -webkit-text-stroke-color: #111;
     -webkit-text-stroke-width: 0.5px;
+    font-size: 60px;
 }
 h2{
     border-bottom: 3px solid rgb(102, 26, 26);
     color: rgb(102, 26, 26);
     background-color:rgb(255, 206, 177) ;
+    font-size: 50px;
 }
 h3{
     color: rgb(128, 20, 54);
     -webkit-text-stroke-color: #3f0924;
     -webkit-text-stroke-width: 0.5px;
     border-bottom: 1px solid #3f0924;
+    font-size: 40px;
 }
 p.centrado{
     text-align: center;
 }
 #rojo{
     color: red;
-}
-li{
-    list-style-type:circle;
-    padding: 5px;
 }
 h2:target{
     /*text-decoration: underline solid 3px rgb(102, 26, 26);*/
@@ -51,4 +105,12 @@ h3:target{
 }
 img{
     width: 500px;
+}
+#interes{
+    font-size: 25px; /*NO CONSIGO CAMBIARLO*/
+    color: #000;
+    text-decoration: underline solid 2px black;
+}
+p>a{
+    font-size: 25px;
 }
