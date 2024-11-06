@@ -55,6 +55,8 @@ nav li:hover >ol>li{
 nav ol ol ol{
     right: 100%;
     top: 0;
+    width: 100%;
+    text-align: center;
 }
 
 /*FIN LISTA DE NAVEGACIÓN*/
