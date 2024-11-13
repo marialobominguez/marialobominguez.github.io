@@ -10,6 +10,7 @@ a#interes{
 nav ol{
     list-style: none;
     padding: 0;
+    width: 100%;
 }
 nav li{
     line-height: 3rem;
@@ -32,6 +33,7 @@ nav a:hover{
 /*PRIMER NIVEL*/
 nav>ol>li{ /*para elegir a las li que están en el primer nivel*/
     float: left;
+    width: 20%;
 }
 nav>ol{
     background-color: rgb(247, 172, 128);
@@ -42,6 +44,7 @@ nav>ol{
 /*SEGUNDO NIVEL*/
 nav li li{
     background-color: rgb(247, 167, 121);
+    width: 100%;
     max-height: 0;
     transition: all 1s;
     overflow: hidden; /*oculta todo lo que este fuera del contenedor, es igual que display none*/
