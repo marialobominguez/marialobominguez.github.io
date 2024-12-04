@@ -3,9 +3,7 @@ a{
     text-decoration: none;
     font-size: large;
 }
-a#interes{
-    font-size: medium;
-}
+
 /*LISTA DE NAVEGACIÓN*/
 nav ol{
     list-style: none;
