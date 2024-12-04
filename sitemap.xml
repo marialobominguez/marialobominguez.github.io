@@ -10,12 +10,12 @@
 <url>
   <loc>https://marialobominguez.github.io/</loc>
   <lastmod>2024-12-04T07:30:50+02:00</lastmod>
-  <priority>1:00</priority>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>https://marialobominguez.github.io/Enlaces-interes.html</loc>
   <lastmod>2024-12-04T07:30:50+02:00</lastmod>
-  <priority>0:8</priority>
+  <priority>0.8</priority> <!--antes estaba como 0:8-->
 </url>
 
 
