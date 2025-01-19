@@ -96,6 +96,9 @@ h3{
 p.centrado{
     text-align: center;
 }
+figure{
+    text-align: center;
+}
 #rojo{
     color: red;
 }
