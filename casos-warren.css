@@ -3,8 +3,11 @@ a{
     text-decoration: none;
     font-size: large;
 }
-
+li>a{
+    font-size: 21px;
+}
 /*LISTA DE NAVEGACIÓN*/
+
 nav ol{
     list-style: none;
     padding: 0;
@@ -25,6 +28,11 @@ nav>ol{
     display: table;
     width: 100%;
 }
+
+li:hover{
+background-color: rgb(243, 159, 110);
+transition: ease-in 0.2s;
+}
 /*FIN LISTA DE NAVEGACIÓN*/
 body{
     background-color: #f6c9c7;
@@ -44,4 +52,30 @@ h2{
     color: rgb(102, 26, 26);
     background-color:rgb(255, 206, 177) ;
     font-size: 50px;
+}
+/*IMAGENES*/
+img{
+    width: 250px;
+}
+figure{
+    text-align: center;
+}
+/*PÁRRAFOS Y FIGCAPTION*/
+p{
+    font-size: 25px;
+}
+p.volver{
+    text-align: right;
+}
+p>a{
+    font-size: 23px;
+}
+figcaption{
+    font-size: 17.5px;
+    margin-top: 7px;
+}
+/*FOOTER*/
+footer>p{
+    padding-top: 15px;
+    font-size: 20px;
 }
