@@ -29,7 +29,7 @@ nav>ol{
     width: 100%;
 }
 
-li:hover{
+nav>ol>li:hover{
 background-color: rgb(243, 159, 110);
 transition: ease-in 0.2s;
 }
@@ -60,6 +60,12 @@ img{
 figure{
     text-align: center;
 }
+div{
+    text-align: center;
+}
+div>img{
+    width: 350px;
+}
 /*PÁRRAFOS Y FIGCAPTION*/
 p{
     font-size: 25px;
@@ -74,6 +80,16 @@ figcaption{
     font-size: 17.5px;
     margin-top: 7px;
 }
+
+/*LISTA DEL PRIMER CASO*/
+ul{
+    list-style: circle;
+    font-size: 24px;
+}
+ul>li{
+    margin-bottom: 20px;
+}
+
 /*FOOTER*/
 footer>p{
     padding-top: 15px;
