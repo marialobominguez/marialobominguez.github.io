@@ -9,23 +9,28 @@
 
 <url>
   <loc>https://marialobominguez.github.io/</loc>
-  <lastmod>2025-01-29T07:30:50+02:00</lastmod>
+  <lastmod>2025-02-09T07:30:50+02:00</lastmod>
   <priority>1.0</priority>
 </url>
 <url>
   <loc>https://marialobominguez.github.io/Enlaces-interes.html</loc>
-  <lastmod>2025-01-29T07:30:50+02:00</lastmod>
+  <lastmod>2025-02-09T07:30:50+02:00</lastmod>
   <priority>0.8</priority> <!--antes estaba como 0:8-->
 </url>
 <url>
   <loc>https://marialobominguez.github.io/museo-warren.html</loc>
-  <lastmod>2025-01-29T07:30:50+02:00</lastmod>
-  <priority>0.8</priority> <!--antes estaba como 0:8-->
+  <lastmod>2025-02-09T07:30:50+02:00</lastmod>
+  <priority>0.8</priority> 
 </url>
 <url>
   <loc>https://marialobominguez.github.io/casos-warren.html</loc>
-  <lastmod>2025-01-29T07:30:50+02:00</lastmod>
-  <priority>0.8</priority> <!--antes estaba como 0:8-->
+  <lastmod>2025-02-09T07:30:50+02:00</lastmod>
+  <priority>0.8</priority> 
+</url>
+<url>
+  <loc>https://marialobominguez.github.io/peliculas-warren.html</loc>
+  <lastmod>2025-02-09T07:30:50+02:00</lastmod>
+  <priority>0.8</priority> 
 </url>
 
 
