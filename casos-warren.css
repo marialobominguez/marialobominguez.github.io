@@ -7,32 +7,47 @@ li>a{
     font-size: 21px;
 }
 /*LISTA DE NAVEGACIÓN*/
+/*Dispositivos hasta 750px de ancho*/
+@media(max-width: 749px){
+    nav ol{
+        list-style: circle;
+        padding-left: 0px;
+        margin-left: 15px;
+    }
+    li{
+        font-size: 20px;
+        margin: 15px;
+    }
+}
+/*dispositivos con un ancho mayor a 749*/
+@media(min-width:750px){
+    nav ol{
+        list-style: none;
+        padding: 0;
+        width: 100%;
+    }
+    nav li{
+        line-height: 3rem;
+        position: relative;
+    }
+    /*PRIMER NIVEL*/
+    nav>ol>li{ /*para elegir a las li que están en el primer nivel*/
+        float: left;
+        width: 20%;
+        text-align: center;
+    }
+    nav>ol{
+        background-color: rgb(247, 172, 128);
+        display: table;
+        width: 100%;
+    }
+    
+    nav>ol>li:hover{
+    background-color: rgb(243, 159, 110);
+    transition: ease-in 0.2s;
+    }
+}
 
-nav ol{
-    list-style: none;
-    padding: 0;
-    width: 100%;
-}
-nav li{
-    line-height: 3rem;
-    position: relative;
-}
-/*PRIMER NIVEL*/
-nav>ol>li{ /*para elegir a las li que están en el primer nivel*/
-    float: left;
-    width: 20%;
-    text-align: center;
-}
-nav>ol{
-    background-color: rgb(247, 172, 128);
-    display: table;
-    width: 100%;
-}
-
-nav>ol>li:hover{
-background-color: rgb(243, 159, 110);
-transition: ease-in 0.2s;
-}
 /*FIN LISTA DE NAVEGACIÓN*/
 body{
     background-color: #f6c9c7;

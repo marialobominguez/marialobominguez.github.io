@@ -7,8 +7,8 @@ body{
 }
 
 /*LISTA DE NAVEGACIÓN*/
-/*Dispositivos hasta 950px de ancho*/
-@media(max-width: 949px){
+/*Dispositivos hasta 750px de ancho*/
+@media(max-width: 749px){
     nav ol{
         list-style: circle;
         padding-left: 0px;
@@ -19,8 +19,8 @@ body{
         margin: 15px;
     }
 }
-/*dispositivos con un ancho mayor a 950*/
-@media(min-width: 950px){
+/*dispositivos con un ancho mayor a 749*/
+@media(min-width: 750px){
     nav ol{
         list-style: none;
         padding: 0;

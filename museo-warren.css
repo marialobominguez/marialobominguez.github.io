@@ -5,54 +5,70 @@ a{
 }
 
 /*LISTA DE NAVEGACIÓN*/
-nav ol{
-    list-style: none;
-    padding: 0;
-    width: 100%;
-}
-nav li{
-    line-height: 3rem;
-    position: relative;
-}
-nav li ol{ /*los de segundo y tercer nivel*/
-    position: absolute; /*esto es para que se salga de la maquetación, al tener esto podemos mover el contenedor respecto a su padre*/
-}
-nav a{
-    color: rgb(2, 2, 2);
-    display: block;
-    text-decoration: none;
-    padding: 0 2.5em;
-    transition: .4s;
-}
-nav a:hover{
-    background-color: rgb(243, 158, 109);
+/*Dispositivos hasta 750px de ancho*/
+@media(max-width: 749px){
+    nav ol{
+        list-style: circle;
+        padding-left: 0px;
+        margin-left: 15px;
+    }
+    li{
+        font-size: 20px;
+        margin: 15px;
+    }
 }
 
-/*PRIMER NIVEL*/
-nav>ol>li{ /*para elegir a las li que están en el primer nivel*/
-    float: left;
-    width: 50%;
-    text-align: center;
-}
-nav>ol{
-    background-color: rgb(247, 172, 128);
-    display: table;
-    width: 100%;
-}
+/*dispositivos con un ancho mayor a 749*/
+@media(min-width:750px){
 
-/*SEGUNDO NIVEL*/
-nav li li{
-    background-color: rgb(247, 167, 121);
-    width: 100%;
-    max-height: 0;
-    transition: all 1s;
-    overflow: hidden; /*oculta todo lo que este fuera del contenedor, es igual que display none*/
+    nav ol{
+        list-style: none;
+        padding: 0;
+        width: 100%;
+    }
+    nav li{
+        line-height: 3rem;
+        position: relative;
+    }
+    nav li ol{ /*los de segundo y tercer nivel*/
+        position: absolute; /*esto es para que se salga de la maquetación, al tener esto podemos mover el contenedor respecto a su padre*/
+    }
+    nav a{
+        color: rgb(2, 2, 2);
+        display: block;
+        text-decoration: none;
+        padding: 0 2.5em;
+        transition: .4s;
+    }
+    nav a:hover{
+        background-color: rgb(243, 158, 109);
+    }
+    
+    /*PRIMER NIVEL*/
+    nav>ol>li{ /*para elegir a las li que están en el primer nivel*/
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    nav>ol{
+        background-color: rgb(247, 172, 128);
+        display: table;
+        width: 100%;
+    }
+    
+    /*SEGUNDO NIVEL*/
+    nav li li{
+        background-color: rgb(247, 167, 121);
+        width: 100%;
+        max-height: 0;
+        transition: all 1s;
+        overflow: hidden; /*oculta todo lo que este fuera del contenedor, es igual que display none*/
+    }
+    nav li:hover >ol>li{
+        max-height: 1000px;
+        overflow: visible; /*para hacerlo visible una vez que se pasa el ratón por encima*/
+    }
 }
-nav li:hover >ol>li{
-    max-height: 1000px;
-    overflow: visible; /*para hacerlo visible una vez que se pasa el ratón por encima*/
-}
-
 
 /*FIN LISTA DE NAVEGACIÓN*/
 p{
