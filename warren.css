@@ -84,7 +84,9 @@
     }
 }
 /*FIN LISTA DE NAVEGACIÓN*/
-
+h2{
+    text-align: center;
+}
 h3 {
     color: rgb(128, 20, 54);
     -webkit-text-stroke-color: #3f0924;
