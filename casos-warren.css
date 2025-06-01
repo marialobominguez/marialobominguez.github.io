@@ -46,6 +46,11 @@ li>a{
 /*FIN LISTA DE NAVEGACIÓN*/
 
 /*IMAGENES*/
+div.sinFondo{
+    border: 3px solid rgba(224, 78, 78, 0);
+    background-color: rgba(177, 74, 72,0);
+}
+
 img{
     width: 225px;
 }

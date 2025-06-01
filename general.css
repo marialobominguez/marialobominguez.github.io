@@ -48,6 +48,21 @@ p.volver{
     display: none;
 }
 
+div:last-child{
+    border: 3px solid rgb(224, 78, 78);
+    background-color: #B14A48;
+    color: white;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+}
+#volver-principal{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
 /*IMÁGENES*/
 div{
     display: flex;
